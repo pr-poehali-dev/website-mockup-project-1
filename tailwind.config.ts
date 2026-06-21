@@ -18,7 +18,18 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				serif: ['"PT Serif"', 'Georgia', 'serif'],
+				sans: ['"PT Sans"', 'Arial', 'sans-serif'],
+			},
 			colors: {
+				sea: {
+					DEFAULT: '#1565b8',
+					dark: '#0d3f7a',
+					deep: '#082a55',
+					light: '#3a8fd4',
+					bright: '#2196f3',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
